@@ -1,4 +1,4 @@
-package br.com.residencia.dto;
+package br.com.residencia.biblioteca.dto;
 
 import java.math.BigDecimal;
 import java.time.Instant;

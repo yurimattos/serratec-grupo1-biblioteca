@@ -7,11 +7,11 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import br.com.residencia.biblioteca.dto.AlunoEmprestimoDTO;
+import br.com.residencia.biblioteca.dto.EmprestimoDTO;
+import br.com.residencia.biblioteca.dto.EmprestimoResumoDTO;
 import br.com.residencia.biblioteca.entity.Emprestimo;
 import br.com.residencia.biblioteca.repository.EmprestimoRepository;
-import br.com.residencia.dto.AlunoEmprestimoDTO;
-import br.com.residencia.dto.EmprestimoDTO;
-import br.com.residencia.dto.EmprestimoResumoDTO;
 
 @Service
 public class EmprestimoService {

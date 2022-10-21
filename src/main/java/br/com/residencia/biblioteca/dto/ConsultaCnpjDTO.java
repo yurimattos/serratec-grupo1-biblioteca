@@ -1,4 +1,4 @@
-package br.com.residencia.dto;
+package br.com.residencia.biblioteca.dto;
 
 public class ConsultaCnpjDTO {
 	private String situacao;

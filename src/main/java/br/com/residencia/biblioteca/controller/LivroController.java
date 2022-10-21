@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import br.com.residencia.biblioteca.dto.LivroDTO;
 import br.com.residencia.biblioteca.entity.Livro;
 import br.com.residencia.biblioteca.service.LivroService;
-import br.com.residencia.dto.LivroDTO;
 
 @RestController
 @RequestMapping("/livros")

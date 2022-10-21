@@ -10,13 +10,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import br.com.residencia.biblioteca.dto.ConsultaCnpjDTO;
+import br.com.residencia.biblioteca.dto.EditoraDTO;
+import br.com.residencia.biblioteca.dto.LivroDTO;
 import br.com.residencia.biblioteca.entity.Editora;
 import br.com.residencia.biblioteca.entity.Livro;
 import br.com.residencia.biblioteca.repository.EditoraRepository;
 import br.com.residencia.biblioteca.repository.LivroRepository;
-import br.com.residencia.dto.ConsultaCnpjDTO;
-import br.com.residencia.dto.EditoraDTO;
-import br.com.residencia.dto.LivroDTO;
 
 @Service
 public class EditoraService {

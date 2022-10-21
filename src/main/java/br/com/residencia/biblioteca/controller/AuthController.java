@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import br.com.residencia.biblioteca.dto.CredenciaisLoginDTO;
 import br.com.residencia.biblioteca.entity.User;
 import br.com.residencia.biblioteca.security.JWTUtil;
 import br.com.residencia.biblioteca.service.UserService;
-import br.com.residencia.dto.CredenciaisLoginDTO;
 
 @RestController
 @RequestMapping("/auth")
